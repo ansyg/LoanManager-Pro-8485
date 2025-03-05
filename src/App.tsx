@@ -1,6 +1,7 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import HeroSlider from './components/HeroSlider';
+import CoreFeatures from './components/CoreFeatures';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import HomeLoans from './pages/HomeLoans';
@@ -46,6 +47,7 @@ function App() {
           </div>
         </div>
       </section>
+      <CoreFeatures />
       <Testimonials />
     </>
   );
